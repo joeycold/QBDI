@@ -21,7 +21,7 @@ option(QBDI_ASAN
        "Enable AddressSanitizer (ASAN) for debugging (May be slow down)" OFF)
 
 # Enable the logging level debug
-option(QBDI_LOG_DEBUG "Enable Debug log level" OFF)
+option(QBDI_LOG_DEBUG "Enable Debug log level" ON)
 
 # Compile static Library
 option(QBDI_STATIC_LIBRARY "Build the static library" ON)
